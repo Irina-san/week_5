@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  height: 59px;
+  background-color: #faf5e5;
+  border-radius: 0;
+}
+
+.logo {
+    display: flex;
+  position: fixed;
+  width: 56px;
+  margin: 24px;
+  color: black;
+}
+
+nav{
+  width: 1280px;
+  height: 59px;
+  padding: 2px;
+  text-decoration: none;
+  }
+
+.MENU{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row nowrap ;
+  justify-content: space-evenly;
+  color: rgba(23, 23, 23, 0.9);
+  text-decoration: none;
+  font-weight: bolder;
+  }
+
+a.MENU:hover {
+  color: green;
+}
